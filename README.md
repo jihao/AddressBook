@@ -101,6 +101,8 @@ Manage addresses by adding, searching and removing address entries.
 
 * __DO NOT__ store any IDE specific files into git repository
 
+* if there is any fault in this readme, please also fix it or submit an issue
+
 # Note
 
 Use pull request to submit changes to `develop` branch.
