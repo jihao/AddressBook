@@ -87,11 +87,13 @@ Manage addresses by adding, searching and removing address entries.
 * please use linked list to store data in memory, when exit the application, you should persist the data to file system. 
  * when application start if you can reload the persistent file is a plus.
  
-* pthread should be used to handle commands
+* please use simple key/value as persistent file format 
+
+* if you can implement an address book server within the application(telnet or raw socket protocol), and when you start interactive command line application, first it starts a socket server, then takes interactive commands as the input for your socket client; a big plus.
  
 * gcc or g++ should be should be used to compile and generate runable application. If you working on windows, you can use Cygwin.
  
-* please provide your steps to build this application, 
+* please provide your steps to build this application 
   * Make file is a plus.
  
 * __DO NOT__ store any IDE specific files into git repository
