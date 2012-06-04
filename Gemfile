@@ -1,4 +1,4 @@
-source "http://ruby.taobao.org/"
+source 'http://ruby.taobao.org/'
 
-gem "cucumber"
-gem "aruba"
+gem 'cucumber'
+gem 'aruba'
