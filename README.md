@@ -10,7 +10,7 @@ Manage addresses by adding, searching and removing address entries.
 
 ## Must be implemented features
 
-For details, please refer to [Feature Specification](features/one_shot.features).
+For details, please refer to [Feature Specification](AddressBook/features/one_shot.features).
 
 * address entry data structure
 
