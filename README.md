@@ -10,6 +10,8 @@ Manage addresses by adding, searching and removing address entries.
 
 ## Must be implemented features
 
+For details, please refer to [Feature Specification](features/one_shot.features).
+
 * address entry data structure
 
   * name of the person
@@ -45,6 +47,8 @@ Manage addresses by adding, searching and removing address entries.
     `by (name|mobile|address): name`
 
     `name: xiaoming`
+    
+    `xiaoming; 18888888888; xiaoming jia`
 
     one can search by `name`, `mobile` or `address`, regular expression can be used to query.
     if more than one entires are matched, they should be __all__ displayed.
@@ -57,7 +61,7 @@ Manage addresses by adding, searching and removing address entries.
 
     `name: xiao.*`
 
-    `two address entries deleted`
+    `deleted`
 
     `ab> _`
 
@@ -70,6 +74,8 @@ Manage addresses by adding, searching and removing address entries.
 
     then help message should be displayed, and when encoutering invalid command, help message
     should also be displayed.
+
+    `add|search|delete|!help|!quit`
 
 * quit from the application
 
