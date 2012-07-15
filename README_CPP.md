@@ -89,7 +89,7 @@ Manage addresses by adding, searching and removing address entries.
  
 * please use simple key/value as persistent file format 
 
-* if you can implement an address book server within the application(telnet or raw socket protocol), and when you start interactive command line application, first it starts a socket server, then takes interactive commands as the input for your socket client; a big plus.
+* a big plus if you can implement an address book server within the application(telnet or raw socket protocol). when you start interactive command line application, first it starts a socket server, then takes interactive commands as the input for your socket client.
  
 * gcc or g++ should be should be used to compile and generate runable application. If you working on windows, you can use Cygwin.
  
@@ -102,5 +102,6 @@ Manage addresses by adding, searching and removing address entries.
  
 # Note
  
-Fork me and use pull request to submit changes to `develop` branch. Anything unclear about the feature, fire issue.
+ * Fork me and use pull request to submit changes to `develop` branch. Anything unclear about the feature, fire issue.
+ * You should submit your source code
 
